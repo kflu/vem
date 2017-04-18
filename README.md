@@ -58,6 +58,14 @@ went up from 19C to incorrectly 62C.
 * Initial: vol=9.46v, 5vin=? temperature reading: 17C
 * After 3507s (58min): vol=7.5v, 5vin=5v temperature reading: 20C
 * After 5409s (90min): vol=7.3v, 5vin=5.06v temperature reading: 19C
+* After 9201s (153min): vol=, 5vin temperature reading: 56C
+
+![Temerature and SNR over time][2]
+
+From the chart it can be seen that temerature is well maintained constant over
+most of the battery life, but only raised up (due to low voltage) at the end of
+it. SNR is maintained over entire battery life and cut off when power is not
+sufficient.
 
 
 **Test3**: Anker PowerCore+ mini
@@ -68,3 +76,4 @@ went up from 19C to incorrectly 62C.
 
 
 [1]: http://blog.gopetfriendly.com/is-it-illegal-to-leave-your-pet-alone-in-the-car/
+[2]: doc/temperature_time.png
