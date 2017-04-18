@@ -30,4 +30,40 @@ Rx: Sammamish Library underground parking lot
 Min SNR: -4dB
 
 
+# Battery Tests
+
+## Tx Side
+
+**Problem with 9V**: voltage slowly goes down making temperature reading
+gradually goes up.
+
+Measured tx side power consumption from 9v:
+
+* 90mA non-transmission mode
+* 215mA transmission mode
+
+
+**Test1**: 9v battery (used)
+
+9V battery, almost new, after 70+ minutes, the 5V regulated Vin measured only 3.0V. 
+Battery itself was measured only 4.3V. Not good.
+
+The dropped voltage caused the measured temperature to be misinterpreted and
+went up from 19C to incorrectly 62C.
+
+
+**Test2**: 9v battery (new)
+
+* 9V battery
+* Initial: vol=9.46v, 5vin=? temperature reading: 17C
+* After 3507s (58min): vol=7.5v, 5vin=5v temperature reading: 20C
+
+
+**Test3**: Anker PowerCore+ mini
+
+**Test4**: Constant from car battery
+
+**Test5**: All above with IRQ sleep&wake
+
+
 [1]: http://blog.gopetfriendly.com/is-it-illegal-to-leave-your-pet-alone-in-the-car/
