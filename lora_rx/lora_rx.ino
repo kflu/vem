@@ -97,7 +97,7 @@ uint8_t len = sizeof(buf);
 
 void loop()
 {
-    Serial.print("Time: "); Serial.print(millis() / 60, DEC);
+    Serial.print("Time: "); Serial.print(millis() / 1000, DEC);
     Serial.print(" Waiting for data...");
     Serial.println("");
 
@@ -107,7 +107,7 @@ void loop()
             RH_RF95::printBuffer("Received: ", buf, len);
             temp_t* temp = (temp_t*)buf;
 
-            Serial.print("Time: "); Serial.print(millis() / 60, DEC);
+            Serial.print("Time: "); Serial.print(millis() / 1000, DEC);
             Serial.print(" | Temp (C): "); Serial.print(*temp);
             Serial.print(" | SNR: "); Serial.print(rf95.lastSNR(), DEC);
             Serial.print(" | RSSI: "); Serial.print(rf95.lastRssi(), DEC);
