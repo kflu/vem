@@ -57,6 +57,7 @@ went up from 19C to incorrectly 62C.
 * 9V battery
 * Initial: vol=9.46v, 5vin=? temperature reading: 17C
 * After 3507s (58min): vol=7.5v, 5vin=5v temperature reading: 20C
+* After 5409s (90min): vol=7.3v, 5vin=5.06v temperature reading: 19C
 
 
 **Test3**: Anker PowerCore+ mini

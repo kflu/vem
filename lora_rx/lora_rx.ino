@@ -97,10 +97,12 @@ uint8_t len = sizeof(buf);
 
 void loop()
 {
+    /*
     Serial.print("Time: "); Serial.print(millis() / 1000, DEC);
     Serial.print(" Waiting for data...");
     Serial.println("");
-
+    */
+    
     //if (rf95.waitAvailableTimeout(5 * 1000)) {
     if (rf95.available()) {
         if (rf95.recv(buf, &len)) {
@@ -116,11 +118,11 @@ void loop()
             blink(LED, temp_to_comfort(*temp), 200);
         } else {
             blink(LED, 1, 2000);
-            Serial.println("Receive failed");
+            //Serial.println("Receive failed");
         }
     } else {
         blink(LED, 1, 2000);
-        Serial.println("data not available");
+        //Serial.println("data not available");
     }
 
     delay(5000);
