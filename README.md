@@ -34,6 +34,8 @@ Min SNR: -4dB
 
 ## Tx Side
 
+### 9v Battery
+
 **Problem with 9V**: voltage slowly goes down making temperature reading
 gradually goes up.
 
@@ -66,6 +68,17 @@ From the chart it can be seen that temerature is well maintained constant over
 most of the battery life, but only raised up (due to low voltage) at the end of
 it. SNR is maintained over entire battery life and cut off when power is not
 sufficient.
+
+For 9v 300mAH, current expected battery life is
+
+    300 / (90 + 200/5) = 2.3hour
+
+(90mA + 200mA/5) is the average current draw. 200mA transmission mode occurs every 5 sec.
+
+This aligns well with the experiment. Now if we put it to sleep during the 5 sec wait, expected
+battery life is
+
+    300 / (200/5) = 7.5hour
 
 
 **Test3**: Anker PowerCore+ mini
