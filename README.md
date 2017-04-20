@@ -83,6 +83,9 @@ battery life is
 
 **Test3**: Anker PowerCore+ mini
 
+3350mAh power bank. Running 14.5 hours without any problem.
+
+
 **Test4**: Constant from car battery
 
 **Test5**: All above with IRQ sleep&wake
