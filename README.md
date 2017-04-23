@@ -32,6 +32,16 @@ Min SNR: -4dB
 
 # Battery Tests
 
+Both Rx and Tx can be powered by 2xAA battery at 3V, bypassing the voltage regulator.
+When using non-standard voltage (5V) at Tx, the temperature reading is wrong as 5V
+reference voltage is hard coded.
+
+
+## Rx Side
+
+0.03mA when idle. 3.5mA when receiving (peak).
+
+
 ## Tx Side
 
 ### 9v Battery
