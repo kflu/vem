@@ -39,7 +39,20 @@ reference voltage is hard coded.
 
 ## Rx Side
 
-0.03mA when idle. 3.5mA when receiving (peak).
+0.03mA when idle. 3.5mA when receiving (peak). If Tx interval is 5 sec. Current is
+`3.5/5 + 0.03 = 0.73mA`. For a 500mAh battery, life time could be
+
+    500 * 0.75 / 0.73 = 513h
+
+
+Cannot easily be connected with USB power banks, as the low current causes power banks
+to cut power automatically.
+
+2xAAA (3v) works fine over JST-PH power socket (tested via BAT pin). The benefit is
+its low profile.
+
+Li-ion poly batteries with low volumne are also low profile. They are preferale over 2xAAA
+as being in the recommended voltage range for JST-PH port.
 
 
 ## Tx Side
