@@ -18,17 +18,27 @@ animal in motor vehicle in cirtain situations.
 
 **Test1**
 
-Tx: Sammamish Metropolitan parking lot (upper)
-Rx: Sammamish Metropolitan cafe
-Min SNR: -13dB
+* Tx: Sammamish Metropolitan parking lot (upper)
+* Rx: Sammamish Metropolitan cafe
+* Min SNR: -13dB
 
 
 **Test2**
 
-Tx: Sammamish City Hall parking lot
-Rx: Sammamish Library underground parking lot
-Min SNR: -4dB
+* Tx: Sammamish City Hall parking lot
+* Rx: Sammamish Library underground parking lot
+* Min SNR: -4dB
 
+
+**Test3**
+
+* Tx: Factoria Mall parking lot
+* Rx: Factoria Mall Nordstrom Rack
+* Average SNR: -4.9dB
+* Min SNR: -8dB
+* Distance: 400ft (120m)
+
+![factoria test][3]
 
 # Battery Tests
 
@@ -116,3 +126,4 @@ battery life is
 
 [1]: http://blog.gopetfriendly.com/is-it-illegal-to-leave-your-pet-alone-in-the-car/
 [2]: doc/temperature_time.png
+[3]: doc/factoria.png
