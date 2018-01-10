@@ -1,3 +1,9 @@
+<hr />
+
+### Recommended: [this blog post][blog] describes the project in detail.
+
+<hr />
+
 # Vehicle Environment Monitor (VEM)
 
 I created this project to remotely monitor temperature in my car when I bring
@@ -127,3 +133,4 @@ battery life is
 [1]: http://blog.gopetfriendly.com/is-it-illegal-to-leave-your-pet-alone-in-the-car/
 [2]: doc/temperature_time.png
 [3]: doc/factoria.png
+[blog]: http://kflu.github.io/2017/04/29/2017-04-29-arduino-vehicle-environment-monitor/
