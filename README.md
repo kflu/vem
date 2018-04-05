@@ -14,6 +14,8 @@ stay in the car.
 **NOTE** [Here][1] cites the laws in different states that prohibits leaving
 animal in motor vehicle in cirtain situations. 
 
+![hardware][hardware]
+
 # Range Tests
 
 * 915MHz
@@ -134,3 +136,4 @@ battery life is
 [2]: doc/temperature_time.png
 [3]: doc/factoria.png
 [blog]: http://kflu.github.io/2017/04/29/2017-04-29-arduino-vehicle-environment-monitor/
+[hardware]: doc/hardware.jpg
